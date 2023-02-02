@@ -1,0 +1,20 @@
+.card {
+  img {
+    border-radius: 1rem;
+  }
+
+  .card-title {
+    margin-bottom: 0rem;
+  }
+
+  .card-text {
+    margin-bottom: 0rem;
+  }
+  .card-body {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    .text__description {
+      color: rgb(177, 169, 169);
+    }
+  }
+}

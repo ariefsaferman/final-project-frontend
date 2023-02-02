@@ -1,0 +1,37 @@
+$secondary-color: #737373;
+$bg-color: #f9f9f9;
+$border-color: #dddddd;
+
+$color-other: #dbd5d5;
+.filter__house {
+  color: $secondary-color;
+  background-color: rgb(237, 226, 226);
+  height: 6rem;
+  border-radius: 2rem;
+
+  .filter {
+    width: 9rem;
+    text-align: center;
+  }
+
+  .search {
+    width: 15rem;
+    text-align: center;
+  }
+
+  .filter__house__show {
+    gap: 1rem;
+    padding-left: 3rem;
+    text-align: center;
+  }
+
+  .filter__house__show,
+  .filter__house__sort {
+    label {
+      white-space: nowrap;
+    }
+  }
+  .filter__search {
+    width: 15rem;
+  }
+}
