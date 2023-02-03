@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`navbar navbar-expand-lg ${cookies.token ? "" : "fixed-top"}`}
+      className={`navbar navbar-expand-lg fixed-top`}
       style={{ backgroundColor: "#f7f7f7" }}
     >
       <div className="container">
@@ -57,11 +57,6 @@ const Navbar = () => {
               </>
             ) : (
               <>
-                <li className="nav-item ms-lg-5">
-                  <NavLink to={"/transfer"} className="nav-link">
-                    Transfer
-                  </NavLink>
-                </li>
                 <li className="nav-item ms-lg-5">
                   <NavLink to={"/topup"} className="nav-link">
                     Topup

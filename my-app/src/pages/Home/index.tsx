@@ -35,7 +35,7 @@ export default function HomePage() {
     <div className="container">
       <Navbar />
       <ToastContainer />
-      <HeaderHome />
+      {/* <HeaderHome /> */}
       <FilterHouse
         sortBy={sortBy}
         setSortBy={setSortBy}

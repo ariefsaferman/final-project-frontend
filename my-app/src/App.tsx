@@ -10,6 +10,7 @@ import HomePage from "./pages/Home";
 import { PrivatePage, PublicPage } from "./pages/ProtectedPage";
 import RegisterPage from "./pages/Register";
 import NotFoundPage from "./pages/NotFound";
+import HouseDetail from "./pages/HouseDetail";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
+        <Route path="/details" element={<HouseDetail />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </div>

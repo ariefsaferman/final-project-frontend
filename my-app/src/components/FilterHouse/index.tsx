@@ -14,7 +14,7 @@ type Props = {
 export default function FilterHouse(props: Props) {
   return (
     <div
-      className="filter__house d-flex  flex-wrap align-items-center justify-content-between"
+      className="filter__house d-flex  flex-wrap align-items-center justify-content-between "
       style={{
         backgroundColor: "#dbd5d5   ",
         height: "6rem",
